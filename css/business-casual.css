@@ -6,7 +6,8 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bgwood-low.jpg') no-repeat center center fixed;
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    /*background-color: #98BBCE;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -55,6 +56,11 @@ hr {
 
 .img-full {
     min-width: 100%;
+}
+
+.brand a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .brand-before,
