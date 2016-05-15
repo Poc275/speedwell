@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^speedwell-house\.co.uk
+RewriteRule (.*) http://speedwell-house.co.uk/$1 [R=301,L]
+
+ErrorDocument 404 http://speedwell-house.co.uk/404.html

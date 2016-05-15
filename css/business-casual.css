@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/background.jpg') no-repeat center center fixed;
+    background: url('../img/background-responsive.jpg') no-repeat center center fixed;
     /*background-color: #98BBCE;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -140,6 +140,10 @@ iframe {
 
 
 @media screen and (min-width:768px) {
+    body {
+        background: url('../img/background.jpg') no-repeat center center fixed;
+    }
+
     .brand {
         display: inherit;
         margin: 0;
